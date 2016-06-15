@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB859221D0FB120009D1A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB859211D0FB120009D1A29 /* main.m */; };
+		DAB859251D0FB120009D1A29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB859241D0FB120009D1A29 /* AppDelegate.m */; };
+		DAB859281D0FB120009D1A29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB859271D0FB120009D1A29 /* ViewController.m */; };
+		DAB8592B1D0FB120009D1A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB859291D0FB120009D1A29 /* Main.storyboard */; };
+		DAB8592D1D0FB120009D1A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB8592C1D0FB120009D1A29 /* Assets.xcassets */; };
+		DAB859301D0FB120009D1A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB8592E1D0FB120009D1A29 /* LaunchScreen.storyboard */; };
+		DAFE20351D112CA60088D5AA /* GLMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFE20331D112CA60088D5AA /* GLMock.framework */; };
+		DAFE20361D112CA60088D5AA /* mock.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFE20341D112CA60088D5AA /* mock.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAB8591D1D0FB120009D1A29 /* TestGLMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGLMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB859211D0FB120009D1A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB859231D0FB120009D1A29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB859241D0FB120009D1A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB859261D0FB120009D1A29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB859271D0FB120009D1A29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB8592A1D0FB120009D1A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB8592C1D0FB120009D1A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB8592F1D0FB120009D1A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB859311D0FB120009D1A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFE20331D112CA60088D5AA /* GLMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLMock.framework; sourceTree = "<group>"; };
+		DAFE20341D112CA60088D5AA /* mock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mock.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB8591A1D0FB120009D1A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFE20351D112CA60088D5AA /* GLMock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB859141D0FB120009D1A29 = {
+			isa = PBXGroup;
+			children = (
+				DAB8591F1D0FB120009D1A29 /* TestGLMock */,
+				DAB8591E1D0FB120009D1A29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB8591E1D0FB120009D1A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8591D1D0FB120009D1A29 /* TestGLMock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB8591F1D0FB120009D1A29 /* TestGLMock */ = {
+			isa = PBXGroup;
+			children = (
+				DAB859231D0FB120009D1A29 /* AppDelegate.h */,
+				DAFE20321D112C960088D5AA /* GLMock */,
+				DAB859241D0FB120009D1A29 /* AppDelegate.m */,
+				DAB859261D0FB120009D1A29 /* ViewController.h */,
+				DAB859271D0FB120009D1A29 /* ViewController.m */,
+				DAB859291D0FB120009D1A29 /* Main.storyboard */,
+				DAB8592C1D0FB120009D1A29 /* Assets.xcassets */,
+				DAB8592E1D0FB120009D1A29 /* LaunchScreen.storyboard */,
+				DAB859311D0FB120009D1A29 /* Info.plist */,
+				DAB859201D0FB120009D1A29 /* Supporting Files */,
+			);
+			path = TestGLMock;
+			sourceTree = "<group>";
+		};
+		DAB859201D0FB120009D1A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB859211D0FB120009D1A29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAFE20321D112C960088D5AA /* GLMock */ = {
+			isa = PBXGroup;
+			children = (
+				DAFE20331D112CA60088D5AA /* GLMock.framework */,
+				DAFE20341D112CA60088D5AA /* mock.plist */,
+			);
+			name = GLMock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB8591C1D0FB120009D1A29 /* TestGLMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB859341D0FB120009D1A29 /* Build configuration list for PBXNativeTarget "TestGLMock" */;
+			buildPhases = (
+				DAB859191D0FB120009D1A29 /* Sources */,
+				DAB8591A1D0FB120009D1A29 /* Frameworks */,
+				DAB8591B1D0FB120009D1A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGLMock;
+			productName = TestGLMock;
+			productReference = DAB8591D1D0FB120009D1A29 /* TestGLMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB859151D0FB120009D1A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = eqiwan;
+				TargetAttributes = {
+					DAB8591C1D0FB120009D1A29 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DAB859181D0FB120009D1A29 /* Build configuration list for PBXProject "TestGLMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB859141D0FB120009D1A29;
+			productRefGroup = DAB8591E1D0FB120009D1A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB8591C1D0FB120009D1A29 /* TestGLMock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB8591B1D0FB120009D1A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB859301D0FB120009D1A29 /* LaunchScreen.storyboard in Resources */,
+				DAB8592D1D0FB120009D1A29 /* Assets.xcassets in Resources */,
+				DAFE20361D112CA60088D5AA /* mock.plist in Resources */,
+				DAB8592B1D0FB120009D1A29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB859191D0FB120009D1A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB859281D0FB120009D1A29 /* ViewController.m in Sources */,
+				DAB859251D0FB120009D1A29 /* AppDelegate.m in Sources */,
+				DAB859221D0FB120009D1A29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAB859291D0FB120009D1A29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB8592A1D0FB120009D1A29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB8592E1D0FB120009D1A29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB8592F1D0FB120009D1A29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB859321D0FB120009D1A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB859331D0FB120009D1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB859351D0FB120009D1A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestGLMock",
+				);
+				INFOPLIST_FILE = TestGLMock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.eqiwan.TestGLMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB859361D0FB120009D1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestGLMock",
+				);
+				INFOPLIST_FILE = TestGLMock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.eqiwan.TestGLMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB859181D0FB120009D1A29 /* Build configuration list for PBXProject "TestGLMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB859321D0FB120009D1A29 /* Debug */,
+				DAB859331D0FB120009D1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB859341D0FB120009D1A29 /* Build configuration list for PBXNativeTarget "TestGLMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB859351D0FB120009D1A29 /* Debug */,
+				DAB859361D0FB120009D1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB859151D0FB120009D1A29 /* Project object */;
+}
